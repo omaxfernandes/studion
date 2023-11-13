@@ -2,6 +2,9 @@
 
 Studion is an immersive hands-on initiative designed to introduce you to the captivating realm of modern web development. Our mission is to empower you with the skills and knowledge needed to create exceptional user interfaces that captivate and engage users.
 
+Homepage following the Figma shared in https://www.figma.com/file/gX7nYF9gSj8PSKijEECoIE/studion?type=design&node-id=0-1&mode=design&t=xkwGe24pkw4cafJW-0
+
+
 ## How to work with the repository / Como trabalhar com o repositório
 
 ### Clone the project / Clone o projeto
