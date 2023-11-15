@@ -78,9 +78,10 @@
 
 .contact__form button {
   float: right;
+  width: 100%;
 }
 
-.maps,
 .maps iframe {
-  height: 36.5rem;
+  height: 40.5rem;
+  width: 100%;
 }
