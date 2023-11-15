@@ -10,7 +10,13 @@ Homepage following the Figma shared in https://www.figma.com/file/gX7nYF9gSj8PSK
 ### Clone the project / Clone o projeto
 
 ```
-git clone https://github.com/TechMaks/Studion.git
+gh repo clone diopdev/studion
+
+```
+ or 
+
+```
+git clone https://github.com/diopdev/studion.git
 
 ```
 
