@@ -1,0 +1,41 @@
+.enterprise__section1 {
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 3.4rem;
+    position: relative;
+    gap: 3.12rem;
+}
+
+
+.enterprise__text > h4 {
+    width: 27.37rem;
+    margin-top: 100px;
+    margin-bottom: 3.56rem;
+    font-size: 1.56rem;
+    
+    
+}
+
+.enterprise__text > P {
+    width: 30.87rem;
+    font-size: 1.56rem;
+    font-weight: 25rem;
+}
+
+.enterprise__text > .paragrafo1 {
+    position: absolute;
+}
+
+.enterprise__text > .paragrafo2 {
+    top: 26.25rem;
+    position: absolute;
+}
+
+.enterprise__image > img{
+    margin-left: 11.25rem;
+}
+
+.enterprise__image{
+    background: url("../images/enterprise/rectangle-vector.svg") center no-repeat;
+}
