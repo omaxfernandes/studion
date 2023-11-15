@@ -39,3 +39,34 @@
 .enterprise__image{
     background: url("../images/enterprise/rectangle-vector.svg") center no-repeat;
 }
+
+.enterprise__partners {
+    background-color: var(--color-primary);
+    height: 35.12rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.enterprise__partners > h4 {
+    font-size: 1.56rem;
+    font-weight: 800;
+    color: var(--color--copy--black);
+    
+}
+
+.enterprise__video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.enterprise__video > iframe {
+    width: 71.87rem;
+    height: 41.68rem;
+    margin-top: 55px;
+    margin-bottom: 105px;
+    
+}
+
