@@ -1,54 +1,50 @@
-.testimonials__people {
-    background-color: var(--color-primary);
-    width: 100vw;
-    height: 910px;
+main {
+    background-color: var(--color-secundary);
+    padding: 6rem;
 }
 
-
-
-.testimonials__people {
+section {
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 3.125rem;
-}
-
-.testimonials__slide__copy {
-    margin-top: 1.562rem;
-    width: 29.25rem;
-    height: 7.87rem;
-}
-
-.testimonials__slide__copy > h4 {
-    font-size: 3.125rem;
-    font-weight: 900;
-    width: 29.375rem;
-}
-
-
-.testimonials__slide__copy > p {
-    font-size: 1.562rem;
-    font-weight: 25rem;
-    text-align: left;
-    height: 7.87rem;
     justify-content: center;
+    gap: 4rem;
 }
 
-.testimonials__slide__copy .ocupation_title {
-    display: block;
-    font-size: 0.937rem;
+.user_image {
+    width: 100%;
+    max-width: 32rem;
+}
+
+.name-title {
+    font-size: 5rem;
+    font-weight: 900;
+    color: var(--text-secondary);
+    text-align: center;
+}
+
+.name-title > small {
+    font-size: 1.5rem;
     font-weight: 500;
+    display: block;
     text-align: right;
+    margin-right: 106px;
 }
 
+.quotes {
+    font-size: 5rem;
+    font-weight: 900;
+    max-height: 2rem;
+    text-align: center;
+}
 
-
-.testimonials__slide > .arroys { 
-    display: flex;
-    position: absolute;
-    justify-content: space-between;
-    align-items: center;
-    width: 60%;
-    margin-left: -550px;
-    justify-content: baseline;
+.text {
+    max-width: 60rem;
+    font-size: 2.5rem;
+    font-weight: 400;
+    color: var(--text-secondary);
+    text-align: left;
+    text-wrap: pretty;
 }
