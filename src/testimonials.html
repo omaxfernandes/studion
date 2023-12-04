@@ -3,6 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>Studion</title>
   </head>
@@ -45,7 +53,7 @@
       <div class="container hero__container">
         <div class="hero__copy hero__testimonials">
           <h3>O QUE FALAM SOBRE NÒS</h3>
-          <h2>.depoimento</h2>
+          <h2 style="font-size: 5rem">.depoimento</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste nobis
             deserunt natus illo minima! Assumenda accusamus repellat sequi natus
@@ -56,33 +64,63 @@
       </div>
     </header>
 
-    <main>
-      <section class="testimonials__people">
+    <main class="container__testimonials">
+      <section class="testimonials__slider">
         <div class="testimonials__slide">
-          <div class="testimonials__slide__profile">
+          <div class="slide__container">
             <img
-              class=""
-              src="./images/testimonials/frist-profile.png"
-              alt=""
+              class="user-image"
+              src="./images/testimonials/number-one.png"
+              alt="Alberto saldanha"
             />
-          </div>
-          <div class="testimonials__slide__copy">
-            <h4 class="name-title">
+            <h2 class="name">
               Alberto Saldanha
-              <span class="ocupation_title"> CEO -vitamusic </span>
-            </h4>
-            <p>
+              <small class="name__small">CEO - vitamusic</small>
+            </h2>
+
+            <p class="quotes">“</p>
+            <p class="text">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
           </div>
-          <div class="arroys">
-            <a href="#"
-              ><img src="./images/testimonials/arroy-left.svg" alt=""
-            /></a>
-            <a href="#"
-              ><img src="./images/testimonials/arroy-right.svg" alt=""
-            /></a>
+        </div>
+        <div class="slide">
+          <div class="slide__container">
+            <img
+              class="user-image"
+              src="./images/testimonials/number-two.png"
+              alt="Marianna Bastos"
+            />
+            <h2 class="name">
+              Marianna Bastos
+              <small class="name__small">Prod de eventos - Mita</small>
+            </h2>
+
+            <p class="quotes">“</p>
+            <p class="text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+        </div>
+        <div class="slide">
+          <div class="slide__container">
+            <img
+              class="user-image"
+              src="./images/testimonials/number-three.png"
+              alt="Guilherme Silva"
+            />
+            <h2 class="name">
+              Guilherme Silva
+              <small class="name__small">Gerente de marketing - comuisc</small>
+            </h2>
+
+            <p class="quotes">“</p>
+            <p class="text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
           </div>
         </div>
       </section>
@@ -132,5 +170,12 @@
         >
       </p>
     </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.3.0/jquery-migrate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.0/jquery.waypoints.min.js"></script>
+    <script src="http://ciromattia.github.io/jquery.counterup/jquery.counterup.js"></script>
+    <script src="./testimonials.js"></script>
   </body>
 </html>
