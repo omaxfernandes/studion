@@ -25,6 +25,7 @@
   padding: 7rem 1.875rem;
 }
 
+
 .hero__copy h2 {
   margin: 0;
   margin-bottom: 3rem;
@@ -38,6 +39,7 @@
   font-weight: 400;
   font-size: 1.25rem;
   color: var(--color-primary);
+  margin: 0;
 }
 
 .hero__copy p {
