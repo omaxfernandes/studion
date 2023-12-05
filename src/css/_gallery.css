@@ -1,0 +1,42 @@
+main {
+    background-color: var(--color-copy--black);
+    border-bottom: solid 0.2rem #ccc;
+    overflow-x: hidden;
+}
+
+.galery {
+    padding-bottom: 12rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3rem;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 6rem;
+}
+
+.column:first-child {
+    margin-top: 2rem;
+}
+
+.column:nth-child(2) {
+    margin-top: 6rem;
+}
+
+.column:last-child {
+    margin-top: 6rem;
+}
+
+.galery img {
+    width: 100%;
+    transition: all 500ms ease;
+}
+
+.galery img:hover {
+    transform: translateX(4rem);
+    z-index: 1;
+    box-shadow: -0.6rem 0 3rem 0.3rem var(--color-primary);
+}
