@@ -1,10 +1,12 @@
-main {
+.galery__main {
     background-color: var(--color-copy--black);
     border-bottom: solid 0.2rem #ccc;
     overflow-x: hidden;
+
 }
 
 .galery {
+    padding-top: 3rem;
     padding-bottom: 12rem;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
