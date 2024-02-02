@@ -35,7 +35,7 @@ npm start
 
 ### Need assistance? / Perguntas
 
-Whether you're facing challenges, seeking guidance, or have any inquiries, please don't hesitate to reach out to us. Feel free to send your questions via email to [max.sfernandes@outlook.com] (mailto:max.sfernandes@outlook.com).
+Whether you're facing challenges, seeking guidance, or have any inquiries, please don't hesitate to reach out to us. Feel free to send your questions via email to [max.sfernandes@outlook.com] (mailto:max.sfernandes@outlook.com)
 
 ### Deployment LinK / Link do projeto em produção
 
